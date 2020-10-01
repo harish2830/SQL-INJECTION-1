@@ -49,6 +49,22 @@ Just give simple keys like \ , ' , " , in url or login coloums, It shown an erro
 
 ![image](/screenshots/SQL0.png)
 
+### SQLI query fixing:
+
+Identify SQLI vulnerability using 
+'
+"
+\
+balance the query
+
+http://berkeleyrecycling.org/page.php?id=1 {front end}
+
+select id='id' where name='xyz' {backend}
+
+
+
+
+
 
 
 
